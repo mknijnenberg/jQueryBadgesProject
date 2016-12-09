@@ -1,6 +1,6 @@
 $(function() {
 
-$.ajax({
+  $.ajax({
     url: 'https://www.codeschool.com/users/mknijnenberg.json',
     dataType: 'jsonp',
     success: function(response) {
